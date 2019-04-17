@@ -1,0 +1,62 @@
+
+/* 右到左（右进友出） */
+.rightToLeft-enter,.rightToLeft-leave-to{
+	left: 100%!important;
+}
+.rightToLeft-enter-active,.rightToLeft-leave-active{
+	transition: all 0.3s linear !important;
+}
+.rightToLeft-enter-to,.rightToLeft-leave{
+	left: 0 !important;
+}
+
+/* 左到右（左进左出） */
+.leftToRight-enter,.leftToRight-leave-to{
+	left: -100%!important;
+}
+.leftToRight-enter-active,.leftToRight-leave-active{
+	transition: all 0.3s linear !important;
+}
+.leftToRight-enter-to,.leftToRight-leave{
+	left: 0 !important;
+}
+
+
+/* 左到右（右进左出） */
+.rightleft-enter{
+	left: 100%!important;
+}
+.rightleft-enter-active,.rightleft-leave-active{
+	transition: all 0.3s linear !important;
+}
+.rightleft-enter-to,.rightleft-leave{
+	left: 0 !important;
+}
+.rightleft-leave-to{
+	left: -100%!important;
+}
+
+
+
+/* 透明度进入和离开 */
+.opacity-enter,.opacity-leave-to{
+	opacity: 0!important;
+}
+.opacity-enter-active,.opacity-leave-active{
+	transition: all 0.3s linear !important;
+}
+.opacity-enter-to,.opacity-leave{
+	opacity: 1 !important;
+}
+
+
+/* 由下到上 */
+.bottomToTop-enter,.bottomToTop-leave-to{
+	top: 100%!important;
+}
+.bottomToTop-enter-active,.bottomToTop-leave-active{
+	transition: all 0.3s linear !important;
+}
+.bottomToTop-enter-to,.bottomToTop-leave{
+	top: 0 !important;
+}
